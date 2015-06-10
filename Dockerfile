@@ -1,4 +1,4 @@
 FROM       michaloo/logrotate:latest
 MAINTAINER BehanceRE
 
-ENTRYPOINT ["/bin/bash" "/app/start"]
+ENTRYPOINT ["/bin/bash", "/app/start"]
